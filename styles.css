@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+header {
+    position: sticky;
+    top: 0%;
+}
+
+header nav div {
+    background-color: green;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    margin-right: 20px;
+    padding: 10px;  
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+}
+header nav a {
+    color:#fff;
+    text-decoration: none;
+    margin-inline-end: 10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+section {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px peru;
+}
+h1 {
+    background-color: blueviolet;
+    padding: 2px;
+    margin: 0;
+}
+.service-container {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin: 20px;
+    width: calc(30% - 10px);
+    box-shadow: 0 0 10px gold;
+}
+button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
